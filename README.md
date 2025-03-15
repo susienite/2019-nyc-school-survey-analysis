@@ -10,12 +10,11 @@ There seems to be a consistent perception of strong performance across these fou
 Summary of Scores Correlation and Modelling the Data to Predict Trust Score of a School:
 * P-value matrix shows statisitically significant correlations between all varibales, except that variable and itself.
 * There is a strong correlation between
-  - Collaborative Teachers and Effective School Leadership
-  - Collaborative Teachers and Rigorous Instruction
+  * Collaborative Teachers and Effective School Leadership
+  * Collaborative Teachers and Rigorous Instruction
 * For Trust Score of a school, there is 
-  - moderate correlation with Collaborative Teachers Score
-  - moderate correlation with Effective School Leadership
-  - moderate-weak correlation with Rigorous Instruction
-  - moderate-weak correlation with Strong Family-Community Ties
-
+  * moderate correlation with Collaborative Teachers Score
+  * moderate correlation with Effective School Leadership
+  * moderate-weak correlation with Rigorous Instruction
+  * moderate-weak correlation with Strong Family-Community Ties
  * Using a Polynomial Regression Model optimized with degree = 2 and with alpha = 10.0 has a r^2 (coefficient of determination) of 0.58 for training data and 0.61 for test data.
